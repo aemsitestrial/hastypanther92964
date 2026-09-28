@@ -5033,9 +5033,28 @@
     "fields": [
       {
         "component": "text",
-        "name": "heading",
-        "label": "Heading",
-        "valueType": "string"
+        "name": "guestTitle",
+        "label": "Guest Title"
+      },
+      {
+        "component": "text",
+        "name": "premiumTitle",
+        "label": "Premium Title"
+      },
+      {
+        "component": "select",
+        "name": "segment",
+        "label": "User Segment",
+        "options": [
+          {
+            "name": "Guest",
+            "value": "guest"
+          },
+          {
+            "name": "Premium",
+            "value": "premium"
+          }
+        ]
       }
     ]
   },
