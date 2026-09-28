@@ -1,6 +1,10 @@
-.personalization {
-  padding: 20px;
-  border: 2px solid #1473e6;
+.personalization-container {
+  padding: 24px;
+  border: 1px solid #d9d9d9;
   border-radius: 8px;
-  background: #f5f9ff;
+  background: #f8f8f8;
+}
+
+.personalization-container h2 {
+  margin-bottom: 10px;
 }
