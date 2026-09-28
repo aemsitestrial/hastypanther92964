@@ -34,23 +34,33 @@ export default async function decorate(block) {
 
     productsContainer.innerHTML = visibleProducts
       .map((product, index) => `
-        <div class="product-card">
-          ${
+        <div class="product-card ${
   segment === 'premium' && index >= 5
-    ? '<span class="premium-badge">PREMIUM</span>'
+    ? 'premium-only'
     : ''
-}
+}">
+  ${
+    segment === 'premium' && index >= 5
+      ? '<span class="premium-badge">PREMIUM</span>'
+      : ''
+  }
 
-          <h3>${product.title || product.name}</h3>
+  ${product.images?.[0]?.thumbnail}
 
-          <p class="product-price">
-            ₹${product.price}
-          </p>
+  <h3>${product.productName}</h3>
 
-          <p class="product-description">
-            ${product.description || ''}
-          </p>
-        </div>
+  <p class="product-category">
+    ${product.category}
+  </p>
+
+  <p class="product-price">
+    ₹${product.price}
+  </p>
+
+  <p class="product-description">
+    ${product.description}
+  </p>
+</div>
       `)
       .join('');
   } catch (error) {
