@@ -45,8 +45,6 @@ export default async function decorate(block) {
     : ''
 }
 
-  ${product.images?.[0]?.thumbnail}
-
   <h3>${product.productName}</h3>
 
   <p class="product-category">
