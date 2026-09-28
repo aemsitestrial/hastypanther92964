@@ -5029,6 +5029,17 @@
     ]
   },
   {
+    "id": "personalization",
+    "fields": [
+      {
+        "component": "text",
+        "name": "heading",
+        "label": "Heading",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "offer",
     "fields": [
       {
