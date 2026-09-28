@@ -17,7 +17,7 @@ export default async function decorate(block) {
 
   try {
     const response = await fetch(
-      'https://fake.jsonmockapi.com/products?length=10',
+      `https://38559-305pinkchicken-stage.adobeioruntime.net/api/v1/web/app/products?segment=${segment}`,
     );
 
     const data = await response.json();
