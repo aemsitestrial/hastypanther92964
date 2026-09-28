@@ -9,10 +9,19 @@
   margin-bottom: 10px;
 }
 
-.product-card {
+.product-card  {
     border: 1px solid #d9d9d9;
-    padding-left: 2rem;
-    margin : 2rem;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    background: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
 }
 
 .product-category {
@@ -22,5 +31,10 @@
 }
 
 .premium-only {
-  border: 2px solid #f59e0b;
+    background: #f59e0b;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
 }
