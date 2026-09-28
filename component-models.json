@@ -5032,16 +5032,6 @@
     "id": "personalization",
     "fields": [
       {
-        "component": "text",
-        "name": "guestTitle",
-        "label": "Guest Title"
-      },
-      {
-        "component": "text",
-        "name": "premiumTitle",
-        "label": "Premium Title"
-      },
-      {
         "component": "select",
         "name": "segment",
         "label": "User Segment",
