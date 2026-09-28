@@ -7,10 +7,10 @@ export default function decorate(block) {
 
   const content = segment === 'premium' ? premiumTitle : guestTitle;
 
-  block.innerHTML = `
-    <div class="personalization-container">
-      <h2>${content}</h2>
-      <p>Current Segment: ${segment}</p>
-    </div>
+ block.innerHTML = `
+  <div>
+    <h2>Debug</h2>
+    <p>${JSON.stringify(block.dataset)}</p>
+  </div>
   `;
 }
