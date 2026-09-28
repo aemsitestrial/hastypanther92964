@@ -47,10 +47,6 @@ export default async function decorate(block) {
 
   <h3>${product.productName}</h3>
 
-  <p class="product-category">
-    ${product.category}
-  </p>
-
   <p class="product-price">
     ₹${product.price}
   </p>
