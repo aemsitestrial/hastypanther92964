@@ -5,7 +5,7 @@ export default function decorate(block) {
 
   const premiumTitle = block.dataset.premiumTitle || 'Exclusive Premium Benefits';
 
-  const content = segment === 'premium'? premiumTitle: guestTitle;
+  const content = segment === 'premium' ? premiumTitle : guestTitle;
 
   block.innerHTML = `
     <div class="personalization-container">
