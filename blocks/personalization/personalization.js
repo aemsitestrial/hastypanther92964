@@ -4,7 +4,7 @@ export default async function decorate(block) {
     : 'guest';
 
   const title = segment === 'premium'
-    ? 'Exclusive Banking Offers'
+    ? 'Exclusive Electronic Offers'
     : 'Welcome Guest';
 
   block.innerHTML = `
