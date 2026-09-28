@@ -40,10 +40,10 @@ export default async function decorate(block) {
     : ''
 }">
   ${
-    segment === 'premium' && index >= 5
-      ? '<span class="premium-badge">PREMIUM</span>'
-      : ''
-  }
+  segment === 'premium' && index >= 5
+    ? '<span class="premium-badge">PREMIUM</span>'
+    : ''
+}
 
   ${product.images?.[0]?.thumbnail}
 
