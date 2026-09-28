@@ -1,11 +1,9 @@
 export default function decorate(block) {
   const segment = block.dataset.segment || 'guest';
 
-  const guestTitle =
-    block.dataset.guestTitle || 'Welcome Guest';
+  const guestTitle = block.dataset.guestTitle || 'Welcome Guest';
 
-  const premiumTitle =
-    block.dataset.premiumTitle || 'Exclusive Premium Benefits';
+  const premiumTitle = block.dataset.premiumTitle || 'Exclusive Premium Benefits';
 
   const content = segment === 'premium'
     ? premiumTitle
