@@ -5953,17 +5953,22 @@
             ]
           }
         ]
-      },
-      {
-        "id": "mycf",
-        "fields": [
-          {
-            "component": "reference",
-            "name": "fragmentPath",
-            "label": "Select Content Fragment"
-          }
-        ]
       }
     ]
-  }
+  },
+  {
+  "id": "mycf",
+  "fields": [
+    {
+      "component": "aem-content-fragment",
+      "name": "fragmentPath",
+      "value": "",
+      "label": "Content Fragment Path",
+      "valueType": "string",
+      "validation": {
+        "rootPath": "/content/dam"
+      }
+    }
+  ]
+}
 ]
