@@ -639,13 +639,13 @@ p:not(:has(+ p)) {
 }
 
 .theme-light {
-  --bg-color: #ffffff;
-  --text-color: #222222;
+  --bg-color: #fff;
+  --text-color: #222;
 }
 
 .theme-dark {
   --bg-color: #1e1e1e;
-  --text-color: #ffffff;
+  --text-color: #fff;
 }
 
 body {
