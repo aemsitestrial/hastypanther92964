@@ -89,5 +89,9 @@
   {
     "id": "video",
     "components": []
+  },
+  {
+    "id": "mycf",
+    "title": "My Content Fragment"
   }
 ]

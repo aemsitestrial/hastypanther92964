@@ -1394,6 +1394,20 @@
               }
             }
           }
+        },
+        {
+          "title": "Page",
+          "id": "page",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/page/v1/page"
+              }
+            }
+          }
+        },{
+          "title": "My Content Fragment",
+          "id": "mycf"
         }
       ]
     }
