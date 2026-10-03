@@ -204,6 +204,8 @@ body {
   grid-template-columns: 100%;
   min-height: 100dvh;
   counter-reset: my-card-counter;
+  background: var(--bg-color);
+  color: var(--text-color);
 }
 
 body:not(.appear) {
@@ -646,9 +648,4 @@ p:not(:has(+ p)) {
 .theme-dark {
   --bg-color: #1e1e1e;
   --text-color: #fff;
-}
-
-body {
-  background: var(--bg-color);
-  color: var(--text-color);
 }
