@@ -1,0 +1,21 @@
+{
+  "id": "page",
+  "fields": [
+    {
+      "component": "select",
+      "name": "theme",
+      "label": "Theme",
+      "valueType": "string",
+      "options": [
+        {
+          "name": "Light",
+          "value": "light"
+        },
+        {
+          "name": "Dark",
+          "value": "dark"
+        }
+      ]
+    }
+  ]
+}
