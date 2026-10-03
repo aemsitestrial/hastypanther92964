@@ -25,6 +25,9 @@ import {
   showExperimentationRail,
 } from './experiment-loader.js';
 
+import { applyTheme } from './theme.js';
+
+applyTheme();
 const experimentationConfig = {
   prodHost: 'frescopa.coffee', // TODO: change domains for different showcases.
   audiences: {
