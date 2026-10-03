@@ -1,0 +1,9 @@
+.mycf-card{
+  border:1px solid #ddd;
+  padding:20px;
+  border-radius:8px;
+}
+
+.mycf-card h2{
+  color:#0063be;
+}
