@@ -1407,7 +1407,14 @@
           }
         },{
           "title": "My Content Fragment",
-          "id": "mycf"
+          "id": "mycf",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "wknd/components/mycf"
+              }
+            }
+          }
         }
       ]
     }
