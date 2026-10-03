@@ -637,3 +637,18 @@ p:not(:has(+ p)) {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
+.theme-light {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+}
+
+.theme-dark {
+  --bg-color: #1e1e1e;
+  --text-color: #ffffff;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
