@@ -2,8 +2,6 @@ export default async function decorate(block) {
   try {
     const path = block.textContent.trim();
 
-    console.log('CF Path:', path);
-
     const query = `
       query($path:String!) {
         mycfmodelByPath(_path:$path){
@@ -36,8 +34,6 @@ export default async function decorate(block) {
 
     const result = await response.json();
 
-    console.log('GraphQL Result:', result);
-
     const cf = result?.data?.mycfmodelByPath?.item;
 
     if (!cf) {
@@ -55,8 +51,6 @@ export default async function decorate(block) {
       </div>
     `;
   } catch (e) {
-    console.error('MYCF ERROR', e);
-
     block.innerHTML = `
       <p style="color:red">
         Error loading content fragment
